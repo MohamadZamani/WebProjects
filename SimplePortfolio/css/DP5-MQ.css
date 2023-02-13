@@ -1,0 +1,387 @@
+/*
+Name: Mohamad Zamani
+Email: Mzamani6@myseneca.ca
+Studnet ID: 153110192
+WEB222-ZBB
+Final Assessment Project
+*/
+
+@media (max-width: 1024px){
+    * {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+}
+@media (min-width: 550px){
+    
+    .wlc {
+        font-size: 1.5rem;
+    }
+    .Discription {
+        font-size: 1.2rem;
+    }
+    header {
+        background: url(../pics/Header_picture2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    #prsnlPic img{
+        width : 300px;
+        height : 250px;
+    }
+
+    .Samples-Contact {
+        justify-content: center;
+    }
+    .samples-btn, .contact-btn {
+        margin: 0 30px;
+        font-size: 1.1em;
+    }
+    .AboutMe {
+        display: flex;
+        flex-flow: row wrap;
+        width: 95%;
+        margin: 10px auto;  
+      }
+  
+      #left_Clmn, #right_Clmn {
+          display: flex;
+          width: 100%;
+          height : 300px;
+          justify-content: center;
+          align-items: center;
+          flex-flow: column nowrap;
+          justify-content: center;
+          padding: 20px;
+      }
+  
+      #left_Clmn h3 {
+          padding: 10px;
+          color: rgb(0, 55, 128);
+          font-size: 1.5rem;
+      }
+      
+      #left_Clmn p {
+          font-size: 1.2rem;
+          text-align: justify;
+          padding: auto 10px;
+          color: rgb(22, 22, 60);
+  
+      }
+
+      #lefr_Clmn {
+          order: 0;
+      }
+  
+      #right_Clmn {
+          order: 1;
+      }
+  
+      #myInfo {
+          font-family: Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+          box-shadow: 0 5px 15px rgb(105, 116, 123);
+        }
+        
+        #myInfo td, #myInfo th {
+          border: 1px solid rgb(176, 191, 233);
+          padding: 8px;
+        }
+        
+        #myInfo tr:nth-child(even){
+            background-color: #4e99b9;
+            color: rgb(221, 248, 250);
+          }
+        
+        #myInfo tr:hover {
+            background-color: rgb(176, 191, 233);
+            color: rgb(14, 39, 62);
+          }
+        
+        #myInfo th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #91aad7;
+          color: white;
+          text-align: center;
+        }
+
+        .Degree {
+            font-size: 1.1rem;
+            width: 35%;
+        }
+
+        .center {
+            width: 100٪;
+        }
+        .btn_main_bt {
+            width: 50%;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+        }
+}
+
+@media (min-width: 850px) {
+    .wlc {
+        font-size: 2.4rem;
+    }
+    .Discription {
+        font-size: 1.5rem;
+    }
+    .SideNavIcon, a.closebtn {
+        display: none;
+    }
+    .sideNav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: row;
+        width: 100%;
+        height: 60px;
+        padding-top: 0;
+        padding-right: 20px;
+        background-color: transparent;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        transition: 0;
+    }
+
+    #mySideNav {
+        width: 100%;
+    }
+
+    .sideNav a {
+        font-size: 1.2rem;
+    }
+	
+	.AboutMe {
+	  display: flex;
+	  flex-flow: row nowrap;
+      width: 95%;
+      margin: 10px auto;
+      box-shadow: 0 0 10px rgb(105, 116, 123);
+	}
+
+    #left_Clmn {
+        display: flex;
+        width: 50%;
+        height : 300px;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        padding: 20px;
+    }
+
+    #left_Clmn h3 {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        color: rgb(0, 55, 128);
+        font-size: 1.3rem;
+
+    }
+    
+    #left_Clmn p {
+        font-size: 1.1rem;
+        text-align: justify;
+        padding: auto 10px;
+        color: rgb(22, 22, 60);
+    }
+
+    #right_Clmn {
+        display: flex;
+        width: 50%;
+        height : 300px;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+        order: 1;
+        padding: 20px;
+    }
+
+    #myInfo {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #myInfo td, #myInfo th {
+        border: 1px solid rgb(176, 191, 233);
+        padding: 8px;
+      }
+      
+      #myInfo tr:nth-child(even){
+          background-color: #4e99b9;
+          color: rgb(255, 255, 255);
+        }
+      
+      #myInfo tr:hover {
+          background-color: rgb(212, 224, 255);
+          color: rgb(8, 24, 39);
+        }
+      
+      #myInfo th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: rgba(20, 38, 87, 0.681);
+        color: white;
+        text-align: center;
+      }
+
+      .Degree {
+        font-size: 1.5rem;
+        width: 35%;
+    }
+
+    .center {
+        width: 50%;
+    }
+    .btn_main_bt {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    #prsnlPic img{
+        width : 300px;
+        height : 250px;
+    }
+    .AboutMe {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      #left_Clmn { 
+        width: 100%;
+        order: 0;
+        background-color: rgba(20, 38, 87, 0.681);
+        color: azure;
+        padding: 20px;
+    }
+    
+    #left_Clmn h3 {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        
+    }
+    
+    #left_Clmn p {
+        font-size: 1.1rem;
+        text-align: justify;
+        padding: auto 10px;
+        
+    }
+
+    #right_Clmn {
+        width: 100%;
+        order: 1;
+        padding: 10px;
+    }
+
+    #myInfo {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        box-shadow: 0 0 10px rgb(105, 116, 123);
+      }
+      
+      #myInfo td, #myInfo th {
+        border: 1px solid rgb(176, 191, 233);
+        padding: 8px;
+      }
+      
+      #myInfo tr:nth-child(even){
+          background-color: #4e99b9;
+          color: rgb(255, 255, 255);
+        }
+      
+      #myInfo tr:hover {
+          background-color: rgb(176, 191, 233);
+          color: rgb(30, 64, 95);
+        }
+      
+      #myInfo th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #91aad7;
+        color: white;
+        text-align: center;
+      }
+
+      #EduHeader{
+          padding: 5px;
+          font-size: 1.2rem;
+      }
+
+      .EduSubContainer {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 5px auto;
+    }
+    
+    .Degree{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 2rem;
+        background-color: rgba(20, 38, 87, 0.681);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+     
+    .Deg_Dscrptn {
+        display: flex;
+        align-items: center;
+        flex-flow: column nowrap;
+        width: 100%;
+        height: 5rem;
+        font-size: 1rem;
+        margin-top: 0;
+    }
+    .form_st1{
+        width: 80%;
+    }
+    .center {
+        width: 100%;
+    }
+    .btn_main_bt {
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #topic{
+        margin: 10px;
+    }
+
+    #topic label{
+        font-size: 0.7rem;
+
+    }
+
+  }
+
+  
+  

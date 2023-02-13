@@ -1,0 +1,42 @@
+/*
+Name: Mohamad Zamani
+Email: Mzamani6@myseneca.ca
+Studnet ID: 153110192
+WEB222-ZBB
+Final Assessment Project
+*/
+
+.sideNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+    opacity: 0.92;
+}
+.sideNav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 25px;
+    color:  rgb(61, 200, 255);
+    display: block;
+    transition: 0.5s;
+}
+.sideNav a:hover {
+    color : rgb(197, 228, 250);
+    transition: 0.5s;
+}
+.sideNav .closebtn {
+    position: absolute;
+    top: 0;
+    right : 25px;
+    font-size : 36px;
+    margin-left : 50px;
+}

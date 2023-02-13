@@ -1,0 +1,327 @@
+/*
+Name: Mohamad Zamani
+Email: Mzamani6@myseneca.ca
+Studnet ID: 153110192
+WEB222-ZBB
+Final Assessment Project
+*/
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100px;
+}
+
+
+.SideNavIcon {
+    position: fixed;
+    top : 0;
+    right: 5px;
+    color :  rgb(50, 138, 173);
+    transition: 1.5s;
+}
+.SideNavIcon:hover {
+  color : rgb(169, 214, 230);
+  transition : 0.3s;
+}
+
+.Logo_Intro {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    justify-content: flex-start;
+}
+.logo {
+    background: url(../pics/logo.png);
+    background-repeat: no-repeat;
+    background-size: 65px;
+    width: 70px;
+    height: 65px;
+    margin: 10px 5px;
+}
+.Intro {
+    font-family: gabriola, serif;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    /* width: 200px; */
+    line-height: 20px;
+    /* margin: 0 25% 0 10%; */
+}
+.fullName {
+    background-image: linear-gradient(to right, #4e7ba0 -10%, #ffffff 90%);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 1.7rem;
+    /* border: 2px solid rebeccapurple; */
+}
+.expertise {
+    background-image: linear-gradient(to right, #ffffff -10%, #537ca4 90%);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 1.1rem;
+}
+.wlc-Discription {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+.wlc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+	color : lightblue;
+}
+.Discription {
+    /* direction: rtl; */
+    width: 85%;
+    text-align: center;
+    font-family: serif;
+    font-size: rem;
+	color : lightblue;
+}
+
+#m_date {
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.Samples-Contact {
+    width : 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.samples-btn, .contact-btn {
+    text-decoration: none;
+    /* height: 20px; */
+    width: 150px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color:  rgb(84, 189, 250);         
+    box-shadow: 0 0 7px rgb(90, 123, 143);
+    border-radius: 10px;
+    font-family: serif;
+    font-size: 1em;
+}
+ .samples-btn:hover {
+    color:  #eee;
+    box-shadow: 0 3px 5px rgb(157, 140, 143);
+   background-image: linear-gradient(to right, #314755 0%, #1d7fac  51%, #314755  100%);
+ }
+ .contact-btn:hover {
+   color:  #eee;
+   box-shadow: 0 3px 5px rgb(157, 140, 143);
+   background-image: linear-gradient(to right, #314755 0%, #1d7fac  51%, #314755  100%);
+ }
+ 
+ #prsnlPic {
+	 display: flex;
+	 align-content: center;
+	 box-shadow: 0 0 15px rgb(157, 140, 143);
+	 border-radius: 20px;
+ }
+ 
+ #prsnlPic img {
+	 width : 350px;
+	 height : 300px;
+	 border-radius: 20px;
+	 opacity : 0.8;
+ }
+
+ article {
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     width: 95%;
+     height: 80vh;
+     box-shadow: 0 0 10px rgb(81, 73, 74);
+     margin: auto;
+     background: no-repeat center/cover url("../pics/ArticlePic.jpg")  fixed;
+ }
+.EduContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 95%;
+}
+
+#EduHeader {
+    width: 100%;
+    padding: 10px;
+    margin: 5px auto;
+    text-align: center;
+    background-color: rgba(55, 58, 68, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 7px rgb(81, 73, 74);
+}
+
+.EduSubContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+    margin: 5px auto;
+}
+
+.Degree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 7rem;
+    background-color: rgba(20, 38, 87, 0.681);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(81, 73, 74);
+    margin: 10px;
+    font-size: 1.5rem;
+    color: azure;
+}
+ 
+.Deg_Dscrptn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    width: 60%;
+    height: 7rem;
+    background-color: rgba(50, 87, 189, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(81, 73, 74);
+    margin: 10px;
+    font-size: 1.2rem;
+    color: rgb(6, 66, 87);
+}
+
+Section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    background-color: rgba(130, 131, 136, 0.3);
+    margin: 50px auto;
+    padding: 20px 20px;
+    box-shadow: 0 0 5px rgb(81, 73, 74);
+}
+
+#frm_container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px rgb(81, 73, 74);
+    background-color: rgba(255, 255, 255, 0.936);
+    width: 100%;
+}
+
+#frm_container h4, #frm_container p {
+    color: rgba(40, 67, 142, 0.8);
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.form_st1 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 45%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+#topic {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+#topic input{
+    margin: 20px;
+}
+
+.form_st1 input {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(179, 182, 191, 0.3);
+}
+
+.field_custom {
+    padding: 5px;
+}
+
+.frm_bottom {
+    display: flex;
+    flex-flow: column wrap;
+    width: 82%;
+}
+
+textarea{
+    height: 200px;
+    background-color: rgba(179, 182, 191, 0.3);
+    margin: 5px 5px 10px;
+    
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.btn_main_bt {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(22, 72, 133);
+    background-color: rgb(198, 190, 190);
+    box-shadow: 0 0 5px rgb(81, 73, 74);
+    text-decoration: none;
+}
+
+.btn_main_bt:hover {
+    cursor: auto;
+    box-shadow: 0 5PX 5px rgb(81, 73, 74);
+}
+
+

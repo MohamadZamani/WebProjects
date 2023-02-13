@@ -1,0 +1,28 @@
+/*
+Name: Mohamad Zamani
+Email: Mzamani6@myseneca.ca
+Studnet ID: 153110192
+WEB222-ZBB
+Final Assessment Project
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    background: url(../pics/Header-Mobile-Pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: whitesmoke;
+}
+
+main {
+    margin: 50px auto;
+}

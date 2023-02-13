@@ -1,0 +1,220 @@
+<!-- 
+Name: Mohamad Zamani
+Email: Mzamani6@myseneca.ca
+Studnet ID: 153110192
+WEB222-ZBB
+Final Assessment Project
+-->
+
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Design Pattern 5</title>
+        <link rel="stylesheet" href="../CSS/DP5-Main.css">
+        <link rel="stylesheet" href="../CSS/DP5-Style.css">
+        <link rel="stylesheet" href="../CSS/DP5-SideNav.css">
+        <link rel="stylesheet" href="../CSS/DP5-MQ.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="../js/FnlAssmnt.js"></script>
+    </head>
+    <body>
+        <header>
+                <nav>
+                        <div class="Logo_Intro">
+                            <div class="logo"></div>
+                            <div class="Intro">
+                                <h3 class="fullName">Mohamad Zamani</h4>
+                                <h4 class="expertise">PWA & Web Designer</h4>
+                            </div>
+                        </div>
+                        <div id="mySideNav" class="sideNav">
+                            <a  id = "clsbtn" class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+                            <a href="./Index.html">Home</a>
+                            <a href="#">Work Samples</a>
+                            <a href="#">Projects</a>
+                            <a href="#abtMe">About Me</a>
+                            <a href="#cntcMe">Contact Me</a>
+                        </div>
+                        <span id = "opnbtn" class="SideNavIcon" style="font-size:30px;cursor:pointer"  onclick="sideNavAction()">&#9776;</span>
+                </nav>
+            <div class="wlc-Discription">
+					<div id = "prsnlPic">
+						<img src="../pics/PrsnlPic.jpg" alt="UI_developer">
+					</div>
+                    <h1 class="wlc">
+                         Hello There <br>Welcome to my Personal Website
+                    </h1>
+                    <p class="Discription">
+                       You can take a look at some samples of my previous works, know more about me and find your best way to contact me as well.
+                    </p>
+            </div>
+            <div class="Samples-Contact">
+                <a href="../pics/Resume.pdf" class="samples-btn" download><i class="fa fa-download"></i> Resume</a>
+                <a href="#cntcMe" class="contact-btn">Contact me</a>
+            </div>
+        </header>
+        <main id="abtMe">
+            <div class="AboutMe">
+				<div id = "left_Clmn">
+					<h3>About Me and Academic Honesty</h3>
+					<p>I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.</p>
+          <p id="m_date"><strong>Date : &nbsp</strong> 04 . 12 . 2022 </p>
+				</div>
+				<div id="right_Clmn">
+					 <table id = "myInfo">
+					  <tr>
+						<th colspan="2">Basic Information</th>
+					  </tr>
+					  <tr>
+						<td>Age:</td>
+						<td>28</td>
+					  </tr>
+					  <tr>
+						<td>Email:</td>
+						<td>Mzamani6@myseneca.ca</td>
+					  </tr>
+					  <tr>
+						<td>Student ID:</td>
+						<td>153110192</td>
+					  </tr>
+					  <tr>
+						<td>Major:</td>
+						<td>CPP</td>
+					  </tr>
+					  <tr>
+						<td>Instructor:</td>
+						<td>Professor. Noman Atique</td>
+					  </tr>
+					  <tr>
+						<td>Class Section:</td>
+						<td>WEB222-ZBB</td>
+					  </tr>
+					</table> 
+				</div>
+			</div>
+        </main>
+        <article>
+            <div class="EduContainer">
+              <h2 id="EduHeader">Education</h2>
+              <div class="EduSubContainer">
+                <h3 class="Degree">Mathematic & Physics</h3>
+                <div class="Deg_Dscrptn">    
+                  <h5>Diploma</h5>
+                  <p>Adab E-learning High School</p>
+                  <p>2009 To 2013</p>
+                </div>
+              </div>
+              <div class="EduSubContainer">
+                <h3 class="Degree">Software Engineering</h3>
+                <div class="Deg_Dscrptn">
+                  <h5>Asociate Degree</h5>
+                  <p>Azad University Of Tehran Markaz</p>
+                  <p>2014 To 2017</p>
+                </div>
+              </div>
+              <div class="EduSubContainer">
+                <h3 class="Degree">Computer Programming</h3>
+                <div class="Deg_Dscrptn">
+                  <h5>Diploma</h5>
+                  <p>Seneca College</p>
+                  <p>In progress</p>
+                </div>
+              </div>
+            </div>
+        </article>
+        <section id="cntcMe">
+          <div id="frm_container">
+            <h4>GET IN TOUCH</h4>
+            <p>I will do my best to provide the best customer service and answer all of your questions in a timely manner.</p>
+            <div class="form_section">
+              <form class="form_contant" action="https://httpbin.org/post" method="post">
+                <fieldset>
+                <div class="row">
+                  <div class="form_st1">
+                    <!-- <label for="URL">Website</label> -->
+                    <input class="field_custom" placeholder="Websire URL" type="text"/>
+                  </div>
+                  <div class="form_st1">
+                    <!-- <label for="name">Full Name</label> -->
+                    <input class="field_custom" placeholder="Your name" type="text" required />
+                  </div>
+                  <div class="form_st1">
+                    <!-- <label for="email">Email</label> -->
+                    <input class="field_custom" placeholder="Email adress" type="email" required />
+                  </div>
+                  <div class="form_st1">
+                    <!-- <label for="Phone">Phone Number</label> -->
+                    <input class="field_custom" placeholder="Phone number" type="text" required />
+                  </div>
+                  <div class="form_st1">
+                    <!-- <label for="URL">Website</label> -->
+                    <input class="field_custom" placeholder="City" name="city"  type="text" list="Rndm_cts" required />
+                    <datalist id="Rndm_cts">
+                      <!--[if lte IE 9]><select><![endif]-->
+                      <option label="Barrie" value="Barrie"></option>
+                      <option label="Calgary" value="Calgary"></option>
+                      <option label="Charlottetown" value="Charlottetown"></option>
+                      <option label="Chibougamau" value="Chibougamau"></option>
+                      <option label="Chilliwack" value="Chilliwack"></option>
+                      <option label="Cold Lake" value="Cold Lake"></option>
+                      <option label="Dorval" value="Dorval"></option>
+                      <option label="Edmonton" value="Edmonton"></option>
+                      <option label="Flin Flon" value="Flin Flon"></option>
+                      <option label="Hamilton" value="Hamilton"></option>
+                      <option label="Iqualuit" value="Iqualuit"></option>
+                      <option label="Ottawa" value="Ottawa"></option>
+                      <option label="Miramichi" value="Miramichi"></option>
+                      <option label="Montreal" value="Montreal"></option>
+                      <option label="Red Deer" value="Red Deer"></option>
+                      <option label="St. John" value="St. John"></option>
+                      <option label="St. John's" value="St. John's"></option>
+                      <option label="Toronto" value="Toronto"></option>
+                      <option label="Vancouver" value="Vancouver"></option>
+                      <option label="Whitehorse" value="Whitehorse"></option>
+                      <option label="Winnipeg" value="Winnipeg"></option>
+                      <option label="Yellowknife" value="Yellowknife"></option>
+                      <!--[if lte IE 9]></select><![endif]-->
+                    </datalist>
+                  </div>
+                  <div class="form_st1">
+                    <!-- <label for="name">Full Name</label> -->
+                    <input type="text" id="postalcode" name="postalcode" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" title="Postal code is invalid" placeholder="Your Postal Code " required>
+                  </div>
+                  <div id="topic">
+                    <p>Please select topic:</p>
+                      <label for="topic">Question</label>
+                       <input type="radio" id="question" name="topic" value="Question"><br>
+                    <label for="topic">Comment</label>
+                      <input type="radio" id="comment" name="topic" value="Comment"><br>
+                      <label for="topic">Hiring</label>
+                      <input type="radio" id="hiring" name="topic" value="Hiring"><br>
+                  </div>  
+                  <div class="frm_bottom">
+                    <textarea class="field_custom" placeholder="Messager" required ></textarea>
+                    <div class="center">
+                      <input class="btn_main_bt" type="submit" value="Submit">
+                      <input class="btn_main_bt" type="reset" value="Start Over">
+                    </div>
+                  </div>
+                </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </section>
+        <footer id="footer">
+          <div class="container">
+            <ul class="copyright">
+              <li>&copy; Mohamad Zamani</li>
+            </ul>
+          </div>
+        </footer>
+        <script src="../js/FnlAssmnt.js"></script>
+
+    </body>
+</html>
+
+
+
