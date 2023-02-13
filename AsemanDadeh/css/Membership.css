@@ -1,0 +1,129 @@
+.checkout-form {
+    display: flex;
+    flex-flow: column nowrap;
+    /* height: inherit; */
+    float: none;
+    padding: 0 20px;
+}
+
+#RG_Login_Box {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin : 1% auto;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+    direction: rtl;
+    background-image: url(../images/it_service/rg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#RG_Form_Container {
+    width: 100%;
+}
+
+.RG_leftBox {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 300px;
+    margin-top: 50px;
+}
+.RG_Requirements {
+    display: block;
+    padding : 4px;
+    width: 80%;
+    height: 42px;
+    border : none;
+    outline: none;
+    border-bottom: 2px solid #13324e;
+    font-family: calibri, sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+    transition: 0.5s ease;
+    background-color: transparent;
+}
+
+.RG_Requirements:focus {
+    border-bottom: 3px groove #25d8ed;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.RG_Submitions {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    width : 100px;
+    height: 32px;
+    background: #13324e;
+    border : none;
+    border-radius: 5px;
+    color : #acff7b;
+    font-family: calibri, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.RG_Submitions:hover,
+.RG_Submitions:focus {
+    background: #25d8ed ;
+    color: snow;
+    transition: 0.5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.RG_rightBox {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding : 10px;
+    width : 90%;
+}
+.RG_rightBox .signUpWith{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    color : rgb(10, 13, 53);
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.RG_socialNetworks {
+    margin-bottom: 10px;
+    width: 220px;
+    text-align: right;
+    height: 45px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: seashell;
+    font-family: calibri, sans-serif;
+    font-weight: 500;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+button.RG_socialNetworks i {
+    float: right;
+    padding: 4px 15px;
+}
+#RG_FaceBook_link {
+    background-color: #32508e;
+}
+#RG_Google_link {
+    background-color: #dd4b39;
+}
+#RG_Yahoo_link {
+    background-color: rgb(56, 156, 250);
+}
+
+@media (min-width: 850px) {
+    #RG_Login_Box {
+        flex-flow: row nowrap;
+    }
+}

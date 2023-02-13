@@ -1,0 +1,24 @@
+table, td, th, tr {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+#Project_container {
+    direction: rtl;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+ td {
+    padding: 10px;
+     color: #001221;
+}
+th {
+    background-color: #13324e;
+    color: #87f2d6;
+    padding: 10px;
+}
+tr:nth-child(even){ background-color: #d7fcc2;  }
+tr:hover { background-color: #25d9ed8c; }
